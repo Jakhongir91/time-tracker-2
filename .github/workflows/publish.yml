@@ -21,6 +21,6 @@ jobs:
 
       - name: Publish to Github Container registry
         run: |
-          docker build . --tag ghcr.io/jakhongir91/time-tracker-2:latest
-          docker run ghcr.io/jakhongir91/time-tracker-2:latest
-          docker push ghcr.io/jakhongir91/time-tracker-2:latest
+          docker build . --tag ghcr.io/jakhongir91/time-tracker-222:latest
+          docker run ghcr.io/jakhongir91/time-tracker-222:latest
+          docker push ghcr.io/jakhongir91/time-tracker-222:latest
